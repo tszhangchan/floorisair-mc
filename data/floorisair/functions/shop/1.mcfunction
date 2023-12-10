@@ -1,0 +1,4 @@
+execute if score all_items value matches 1 run tellraw @s ["",{"text":"[商店]","color":"gold","bold":true}," 所有道具已啟用，您無法從商店購買道具。"]
+execute if score all_items value matches 0 if score @s Item1_status matches 1 run tellraw @s ["",{"text":"[商店]","color":"gold","bold":true}," 您已擁有此道具。"]
+execute if score all_items value matches 0 unless score @s Item1_status matches 1 run tellraw @s ["",{"text":"[商店]","color":"gold","bold":true}," 購買成功。您現在有 $",{"score":{"name":"@s","objective":"fiacoin"}}," FIA 金幣。"]
+execute if score all_items value matches 0 unless score @s Item1_status matches 1 run scoreboard players set @s Item1_status 1

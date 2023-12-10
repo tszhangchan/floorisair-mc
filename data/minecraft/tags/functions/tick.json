@@ -1,0 +1,19 @@
+{
+    "values": [
+        "floorisair:game/floor_change/cd",
+        "floorisair:game/floor_change/detect_block",
+        "floorisair:game/random_event/bossbar_timer",
+        "floorisair:game/anti_edge",
+        "floorisair:game/dead_block",
+        "floorisair:game/end",
+        "floorisair:general/emergency_reset",
+        "floorisair:general/general_tick",
+        "floorisair:items/clock",
+        "floorisair:items/firework",
+        "floorisair:items/general_cd",
+        "floorisair:items/general",
+        "floorisair:items/jigsaw",
+        "floorisair:items/snowball",
+        "floorisair:items/totem_of_undying"
+    ]
+}

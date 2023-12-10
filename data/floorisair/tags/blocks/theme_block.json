@@ -1,0 +1,14 @@
+{
+    "values": [
+        "minecraft:glass",
+        "minecraft:quartz_block",
+        "minecraft:quartz_pillar",
+        "minecraft:quartz_slab",
+        "minecraft:oak_planks",
+        "minecraft:oak_log",
+        "minecraft:oak_slab",
+        "minecraft:purpur_block",
+        "minecraft:purpur_pillar",
+        "minecraft:purpur_slab"
+    ]
+}
