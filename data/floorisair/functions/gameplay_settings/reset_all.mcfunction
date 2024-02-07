@@ -5,5 +5,25 @@ function floorisair:gameplay_settings/all_items_off
 function floorisair:gameplay_settings/items_cd_on
 function floorisair:gameplay_settings/random_event_show
 scoreboard players reset @a
+scoreboard objectives remove fiacoin
+scoreboard objectives add fiacoin dummy "FIA 金幣"
+scoreboard objectives remove Item1_status
+scoreboard objectives add Item1_status dummy
+scoreboard objectives remove Item2_status
+scoreboard objectives add Item2_status dummy
+scoreboard objectives remove Item3_status
+scoreboard objectives add Item3_status dummy
+scoreboard objectives remove Item4_status
+scoreboard objectives add Item4_status dummy
+scoreboard objectives remove Item5_status
+scoreboard objectives add Item5_status dummy
+scoreboard objectives remove Item6_status
+scoreboard objectives add Item6_status dummy
+scoreboard objectives remove Item7_status
+scoreboard objectives add Item7_status dummy
+scoreboard objectives remove Item8_status
+scoreboard objectives add Item8_status dummy
+scoreboard objectives remove Item9_status
+scoreboard objectives add Item9_status dummy
 function floorisair:game/reset
 tellraw @a ["",{"text":"[遊戲]","color":"green","bold":true}," 地板是空氣！所有選項及玩家所有物已全部重置，祝您遊戲愉快！"]
