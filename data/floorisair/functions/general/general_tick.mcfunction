@@ -8,7 +8,7 @@ execute as @a[gamemode=survival] run gamemode adventure @s
 gamemode spectator @a[team=spectator]
 
 # 遊戲外檢測
-execute if score game_status value matches 1 as @a at @s if entity @s[team=player] unless entity @s[team=player,x=-16,y=64,z=-16,dx=32,dy=41,dz=32] run tellraw @a ["",{"text":"[死亡]","color":"red","bold":true}," ",{"selector":"@s"}," 掉出遊戲了。"]
+execute if score game_status value matches 1 as @a at @s if entity @s[team=player] unless entity @s[team=player,x=-16,y=64,z=-16,dx=32,dy=41,dz=32] run tellraw @a ["",{"text":"[死亡]","color":"red","bold":true}," ",{"selector":"@s"}," 掉出遊戲場地外了。"]
 execute if score game_status value matches 1 as @a at @s if entity @s[team=player] unless entity @s[team=player,x=-16,y=64,z=-16,dx=32,dy=41,dz=32] run kill @s
 
 execute if score game_status value matches 0 as @a[gamemode=adventure,x=-16,y=99,z=-16,dx=32,dy=-163,dz=32] at @s run teleport @s ~ 101 ~
