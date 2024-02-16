@@ -1,2 +1,2 @@
 function floorisair:game/reset
-tellraw @a ["",{"text":"[遊戲]","color":"green","bold":true}," 地板是空氣！附屬資料包已重新載入，祝您遊戲愉快！"]
+tellraw @a ["",{"translate":"floorisair.text.datapack_reload","fallback":"%s Floor is Air! auxiliary data pack is reloaded. Have fun!","with":[{"translate":"floorisair.title.game","fallback":"[Game]","color":"green","bold":true}]}]

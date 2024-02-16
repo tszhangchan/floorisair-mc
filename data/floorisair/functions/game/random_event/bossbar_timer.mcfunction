@@ -10,5 +10,5 @@ execute store result bossbar minecraft:random_event value run scoreboard players
 
 execute if score game_status value matches 1 if score random_event_status value matches 1..2 if score random_event value matches ..0 run scoreboard players set jigsaw_use value 0
 execute if score game_status value matches 1 if score random_event_status value matches 1..2 if score random_event value matches ..0 run function floorisair:game/random_event/random
-execute if score game_status value matches 1 if score random_event_status value matches 1..2 if score random_event value matches ..0 run tellraw @a ["",{"text":"[事件]","color":"dark_red","bold":true}," 一項隨機事件已發生⋯⋯"]
+execute if score game_status value matches 1 if score random_event_status value matches 1..2 if score random_event value matches ..0 run tellraw @a ["",{"translate":"floorisair.text.random_event_happen","fallback":"%s A random event has just happened.","with":[{"translate":"floorisair.title.event","fallback":"[Event]","color":"dark_red","bold":true}]}]
 execute if score game_status value matches 1 if score random_event_status value matches 1..2 if score random_event value matches ..0 run scoreboard players set random_event value 800

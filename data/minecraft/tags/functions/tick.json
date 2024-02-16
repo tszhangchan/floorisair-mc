@@ -9,10 +9,10 @@
         "floorisair:general/emergency_reset",
         "floorisair:general/general_tick",
         "floorisair:items/clock",
-        "floorisair:items/firework",
         "floorisair:items/general_cd",
         "floorisair:items/general",
         "floorisair:items/jigsaw",
+        "floorisair:items/rocket",
         "floorisair:items/snowball",
         "floorisair:items/totem_of_undying"
     ]

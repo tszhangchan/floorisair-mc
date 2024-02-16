@@ -15,9 +15,9 @@ scoreboard players set @a end_crystal_cd 0
 scoreboard players set @a end_crystal_use 0
 scoreboard players set @a clock_cd 0
 scoreboard players set clock_use value 0
-scoreboard players set @a firework_cd 0
-execute if score all_items value matches 0 run scoreboard players set @a[scores={Item8_status=1}] firework_use 2
-execute if score all_items value matches 1 run scoreboard players set @a firework_use 2
+scoreboard players set @a rocket_cd 0
+execute if score all_items value matches 0 run scoreboard players set @a[scores={Item8_status=1}] rocket_use 2
+execute if score all_items value matches 1 run scoreboard players set @a rocket_use 2
 execute if score all_items value matches 0 run scoreboard players set @a[scores={Item9_status=1}] totem_use 1
 execute if score all_items value matches 1 run scoreboard players set @a totem_use 1
 
@@ -33,6 +33,6 @@ gamemode adventure @a
 title @a clear
 execute as @a at @s run playsound minecraft:entity.ender_dragon.growl record @s ~ ~ ~ 2147483647 1 1
 title @a title ""
-title @a subtitle {"text":"開始遊戲！","bold":true}
+title @a subtitle {"translate":"floorisair.text.game_start","fallback":"Game starts!","bold":true}
 
 kill @e[type=minecraft:item]
