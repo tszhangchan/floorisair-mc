@@ -1,6 +1,6 @@
 function floorisair:appearance_settings/theme/quartz
 function floorisair:appearance_settings/floor_texture/wool
-function floorisair:appearance_settings/dead_block/magma_block
+function floorisair:appearance_settings/death_block/magma_block
 function floorisair:gameplay_settings/all_items_off
 function floorisair:gameplay_settings/items_cd_on
 function floorisair:gameplay_settings/random_event_show

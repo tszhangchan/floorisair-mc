@@ -45,7 +45,7 @@ execute if score game_status value matches 0 if score floor_texture value matche
 execute if score game_status value matches 0 if score floor_texture value matches 1 as @e[tag=floor_reset,type=minecraft:marker] at @s run fill ~ ~-1 ~ ~-32 ~-1 ~-32 minecraft:light_gray_concrete
 execute if score game_status value matches 0 if score floor_texture value matches 2 as @e[tag=floor_reset,type=minecraft:marker] at @s run fill ~ ~-1 ~ ~-32 ~-1 ~-32 minecraft:light_gray_stained_glass
 
-execute as @e[tag=block_fixes,tag=dead,type=minecraft:marker] at @s run clone 1017 32 1017 983 38 983 ~-33 ~-2 ~-33
+execute as @e[tag=block_fixes,tag=death,type=minecraft:marker] at @s run clone 1017 32 1017 983 38 983 ~-33 ~-2 ~-33
 
 execute as @e[tag=block_fixes,tag=general,type=minecraft:marker] at @s run clone 983 39 983 1016 44 983 ~-33 ~-1 ~-33
 execute as @e[tag=block_fixes,tag=general,type=minecraft:marker] at @s run clone 1017 39 983 1017 44 1016 ~1 ~-1 ~-33
