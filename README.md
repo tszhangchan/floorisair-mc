@@ -22,7 +22,7 @@ During the game, the floor players have stepped on will change its colour until 
 
 Order: Light grey → Yellow → Orange → Red → Disappears!
 
-There is a total of 5 floors. Attack other players so as to let them fall and stay alive to win the game!
+There is a total of 5 floors. Attack other players to let them fall and stay alive to win the game!
 
 在遊戲過程中，玩家所走過的地板將轉變顏色，直至其消失。
 
@@ -34,17 +34,17 @@ There are 9 items available in the map.
 
 這張地圖同時新增了九種道具供玩家使用。
 
-| Image 圖片 | Item 道具 | Description 簡介 |
-| --- | --- | --- |
-|  | Knock Back Rod 擊退棒 | Knock back other players! 擊退其他玩家 |
-|  | Shears 剪刀 / Pickaxe 鎬 | The traditional fun. 最原始的娛樂。<br>Based on the texture of the floor. 依地板紋理決定。 |
-|  | TNT | Art is Boom! 藝術就是爆炸！芸術は爆発だ！ |
-|  | Super Snowball 超級雪球 | How effective... 是多麼的有效⋯⋯ |
-|  | Speed up Events 加速隨機事件 | Don't you think random things can cause more fun<br>不覺得隨機的東西更有趣嗎？ |
-|  | End Crystal 終界水晶 | More artistic! 更為藝術！ |
-|  | Time Pause! 時間暫停！ | ZA WARUDO!! |
-|  | Rocket 火箭 | I believe I can fly... 我要飛得更高！ |
-|  | Totem of Undying 不死圖騰 | Just one more chance... 最後一次機會！ |
+| Image 圖片 | Item 道具                | Description 簡介                                                              |
+|----------|------------------------|-----------------------------------------------------------------------------|
+|          | Knock Back Rod 擊退棒     | Knock back other players! 擊退其他玩家                                            |
+|          | Shears 剪刀 / Pickaxe 鎬  | The traditional fun. 最原始的娛樂。<br>Based on the texture of the floor. 依地板紋理決定。 |
+|          | TNT                    | Art is Boom! 藝術就是爆炸！芸術は爆発だ！                                                 |
+|          | Super Snowball 超級雪球    | How effective... 是多麼的有效⋯⋯                                                   |
+|          | Speed up Events 加速隨機事件 | Don't you think random things can cause more fun<br>不覺得隨機的東西更有趣嗎？           |
+|          | End Crystal 終界水晶       | More artistic! 更為藝術！                                                        |
+|          | Time Pause! 時間暫停！      | ZA WARUDO!!                                                                 |
+|          | Rocket 火箭              | I believe I can fly... 我要飛得更高！                                              |
+|          | Totem of Undying 不死圖騰  | Just one more chance... 最後一次機會！                                             |
 
 Besides, you can adjust some changes related to the appearance and the game.
 
@@ -76,11 +76,10 @@ Besides, you can adjust some changes related to the appearance and the game.
 - Please ensure certain options in `server.properties` file are changed as the same as the following provided, or ensure the (LAN) server meets the following requirements.<br>請確保 `server.properties` 檔案中，部分選項與下列提供的相符，或確保伺服器、向局域網開放的世界符合以下條件。
 
   1. Enable command blocks in server. 在伺服器中啟用指令方塊。<br>In `server.properties` file: 在 `server.properties` 檔案中：
-
     ```
   enable-command-block=true
     ```
- 
+  
   2. At least one player has op permission, and op permission level is equal or larger than 2. 確保至少有一位玩家擁有管理員權限，且 OP 權限等級大等於 2。<br>In `server.properties` file, replace `[2..4]` with 2, 3 or 4: 在 `server.properties` 檔案中，將 `[2..4]` 替換為 2、3 或 4：
   
     ```
@@ -105,7 +104,7 @@ Required Minecraft version: Minecraft 版本：<br>
 > [!CAUTION]
 >
 > Using an incorrect Minecraft version may result in forever damage to the world, and/or inability to play normally.
-> When this happens, you need to redownload and install the map.
+> When this happens, you need to download and install the map again.
 >
 > 使用錯誤的 Minecraft 版本可導致對世界的永久傷害，及/或無法正常遊玩。
 > 如此事發生，你需要重新下載並安裝地圖。
