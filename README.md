@@ -14,6 +14,15 @@ This map is inspired thanks to _Volcano_ of _Party Game_ and _TNT Run_ from Hypi
 
 ## Main contents 地圖內容
 
+> [!TIP]
+>
+> Number of players: 遊玩人數：<br>
+> At least 2 players 最少 2 人<br>
+> More than 4 Players are suggested 建議 4 人以上
+>
+> Estimated time required: 估計遊玩時間：<br>
+> 3-5 minutes/round 分鐘/局
+
 During the game, the floor players have stepped on will change its colour until it disappears.<br>
 Order: Light grey → Yellow → Orange → Red → Disappears!<br>
 There is a total of 5 floors. Attack other players to let them fall and stay alive to win the game!
@@ -31,7 +40,7 @@ There are 9 items available in this game.<br>
 |          | Shears 剪刀 / Pickaxe 鎬  | The traditional fun. 最原始的娛樂。<br>Based on the texture of the floor. 依地板紋理決定。 |
 |          | TNT                    | Art is Boom! 藝術就是爆炸！芸術は爆発だ！                                                 |
 |          | Super Snowball 超級雪球    | How effective... 是多麼的有效⋯⋯                                                   |
-|          | Speed up Events 加速隨機事件 | Don't you think random things can cause more fun<br>不覺得隨機的東西更有趣嗎？           |
+|          | Speed up Events 加速隨機事件 | Don't you think random things can cause more fun?<br>不覺得隨機的東西更有趣嗎？           |
 |          | End Crystal 終界水晶       | More artistic! 更為藝術！                                                        |
 |          | Time Pause! 時間暫停！      | ZA WARUDO!!                                                                 |
 |          | Rocket 火箭              | I believe I can fly... 我要飛得更高！                                              |
@@ -55,7 +64,7 @@ Besides, you can adjust some changes related to the appearance and the game.<br>
 > `Enable random event but not to show the event bar 不顯示進度列`<br>
 > `Enable random event and show the event bar 顯示進度列`
 
-## Rules and Info 規則及地圖資訊
+## Info 地圖資訊
 
 - Please change game difficulty into **Easy** by `/difficulty easy`.<br>請將遊戲難易度改為**簡單**，指令為 `/difficulty easy`。
 
@@ -63,14 +72,14 @@ Besides, you can adjust some changes related to the appearance and the game.<br>
 
 - Please do **NOT** make changes to the game rule. (`/gamerule`)<br>請儘量不要修改遊戲規則。（`gamerule`）
 
-- Please ensure certain options in `server.properties` file are changed as the same as the following provided, or ensure the (LAN) server meets the following requirements.<br>請確保 `server.properties` 檔案中，部分選項與下列提供的相符，或確保伺服器、向局域網開放的世界符合以下條件。
+- Please ensure certain options in the `server.properties` file are changed as the same as the following provided, or ensure the (LAN) server meets the following requirements.<br>請確保 `server.properties` 檔案中，部分選項與下列提供的相符，或確保伺服器、向局域網開放的世界符合以下條件。
 
-  1. Enable command blocks in server. 在伺服器中啟用指令方塊。<br>In `server.properties` file: 在 `server.properties` 檔案中：
+  1. Enable command blocks in the server. 在伺服器中啟用指令方塊。<br>In the `server.properties` file: 在 `server.properties` 檔案中：
     ```
   enable-command-block=true
     ```
   
-  2. At least one player has op permission, and op permission level is equal or larger than 2. 確保至少有一位玩家擁有管理員權限，且 OP 權限等級大等於 2。<br>In `server.properties` file, replace `[2..4]` with 2, 3 or 4: 在 `server.properties` 檔案中，將 `[2..4]` 替換為 2、3 或 4：
+  2. At least one player has op permission, and op permission level is equal or larger than 2. 確保至少有一位玩家擁有管理員權限，且 OP 權限等級大等於 2。<br>In the `server.properties` file, replace `[2..4]` with 2, 3 or 4: 在 `server.properties` 檔案中，將 `[2..4]` 替換為 2、3 或 4：
   
     ```
   op-permission-level=[2..4]
@@ -86,20 +95,13 @@ Besides, you can adjust some changes related to the appearance and the game.<br>
 > 停用指令方塊將導致無法開始遊戲。<br>
 > 不給予任何玩家管理員權限，或將 OP 權限等級改為 `0` 或 `1` 將導致無法更改任何設定。
 
-Required Minecraft version: Minecraft 版本：<br>
-**Minecraft Java Edition 版 1.20.4**
-
 > [!CAUTION]
+>
+> Required Minecraft version: Minecraft 版本：<br>
+> **Minecraft Java Edition 版 1.20.4**
 >
 > Using an incorrect Minecraft version may result in forever damage to the world, and/or inability to play normally.<br>
 > When this happens, you need to download and install the map again.
 >
 > 使用錯誤的 Minecraft 版本可導致對世界的永久傷害，及/或無法正常遊玩。<br>
 > 如果實際發生了，你需要重新下載並安裝地圖。
-
-Number of players: 遊玩人數：<br>
-At least 2 players 最少 2 人<br>
-More than 4 Players are suggested 建議 4 人以上
-
-Estimated time required: 估計遊玩時間：<br>
-3-5 minutes/round 分鐘/局
