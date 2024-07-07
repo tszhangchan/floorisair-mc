@@ -6,6 +6,13 @@
 《地板是空氣！》是我製作的第一張地圖，適合派對遊玩。<br>
 這張地圖的靈感來自 Hypixel 派對遊戲中的 _Volcano_，還有 _TNT Run_。
 
+Other languages:
+
+- [English](README.md)
+- [Traditional Chinese](README.zh-Hant.md)
+
+* * *
+
 ## 地圖內容
 
 > [!TIP]
