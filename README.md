@@ -9,6 +9,8 @@ Other languages:
 - [English](README.md)
 - [Traditional Chinese](README.zh-Hant.md)
 
+* * *
+
 ## Main contents
 
 > [!TIP]
