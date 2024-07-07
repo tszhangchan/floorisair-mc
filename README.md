@@ -7,7 +7,7 @@ This map is inspired thanks to _Volcano_ of _Party Game_ and _TNT Run_ from Hypi
 Other languages 其他語言:
 
 - [English](README.md)
-- [繁體中文（書面）Traditional Chinese (Written)](README.zh-Hant.md)
+- [Traditional Chinese](README.zh-Hant.md)
 
 ## Main contents
 
