@@ -1,10 +1,13 @@
 # Floor is Air!
 
-## Introduction
-
 Welcome! I am Commusic, a Minecraft player from Hong Kong.<br>
 _Floor is Air!_ is my first map for party gaming.<br>
 This map is inspired thanks to _Volcano_ of _Party Game_ and _TNT Run_ from Hypixel.
+
+Other languages 其他語言:
+
+- [English](README.md)
+- [繁體中文（書面）Traditional Chinese (Written)](README.zh-Hant.md)
 
 ## Main contents
 
